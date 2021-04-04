@@ -20,25 +20,25 @@ hr {
 }
 
 .top-main-outer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.top-main-wrap {
   width: max-content;
   margin: 0 auto;
   font-size: 14px;
   position: relative;
 }
 
-.top-main-inner {
+.top-main {
   width: 980px;
   margin: 0 auto;
 }
 
-/* .top-contents-img-center-outer {
-  text-align: center;
-} */
-
-.top-contents-img-center {
-  height: 150px;
+.top-main img {
   width: 980px;
-  margin: 0 auto;
+  height: 150px;
 }
 
 .top-contents-img-left {
