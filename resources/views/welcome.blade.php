@@ -17,13 +17,13 @@
     <div class='top-header'>
       <div class="top-header-inner">
         <div class="top-header-logo">
-          <a href="#"><img src="{{ asset('storage/img/logo.png') }}" alt="LaravelGame - 国内最大級のゲームアプリ情報・攻略サイト"></a>
+          <a href="#"><img src="{{ asset('storage/img/header/logo.png') }}" alt="LaravelGame - 国内最大級のゲームアプリ情報・攻略サイト"></a>
         </div>
         <div class="top-header-link">
           <ul>
             <li><a href="#">ホーム</a></li>
-            <li><a href="#"><img src="{{ asset('storage/img/new_regist.png') }}" alt="新規登録">新規登録</a></li>
-            <li><a href="#"><img src="{{ asset('storage/img/login.png') }}" alt="ログイン">ログイン</a></li>
+            <li><a href="#"><img src="{{ asset('storage/img/header/new_regist.png') }}" alt="新規登録">新規登録</a></li>
+            <li><a href="#"><img src="{{ asset('storage/img/header/login.png') }}" alt="ログイン">ログイン</a></li>
           </ul>
         </div>
       </div>
@@ -59,6 +59,18 @@
   </header>
   {{-- // TOP検索 --}}
   {{-- // ヘッダー --}}
+
+  {{-- 背景画像 --}}
+  <div class="background-image-left">
+
+  </div>
+  <div class="background-image-center">
+
+  </div>
+  <div class="background-image-right">
+
+  </div>
+  {{-- // 背景画像 --}}
 
   {{-- mainメニュー --}}
   {{-- ニュース、コラボ、その他 --}}
@@ -479,7 +491,7 @@
   {{-- //右サイドメニュー --}}
 
   {{-- フッター --}}
-  <div>
+  <div.background-image>
     <nav>
       <li>トップ</li>
       <li>ヘルプ</li>
@@ -490,7 +502,7 @@
       <li>広告のご案内</li>
       <li>お問い合わせ</li>
     </nav>
-  </div>
+  </div.background-image->
   LaravelGame(English)LaravelGame(繁體中文版)
   Copyright (C) LaravelGame All Rights Reserved.
   {{-- フッター --}}
