@@ -19,7 +19,13 @@ hr {
   box-sizing: border-box;
 }
 
-.main-background {
+.top-main-contents {
+  width: max-content;
+  font-size: 14px;
+}
+
+.top-background-img-flex {
+  margin: 0 auto;
   display : -webkit-box;     /* old Android */
   display : -webkit-flex;    /* Safari etc. */
   display : -ms-flexbox;     /* IE10        */
@@ -27,7 +33,7 @@ hr {
 }
 
 /* メイン背景画像上揃え */
-.main-background {
+.image-line-up {
   -webkit-align-items: flex-start;  /* Safari etc. */
   -ms-align-items    : flex-start;  /* IE10        */
   align-items: flex-start;
@@ -39,6 +45,7 @@ hr {
 
 .background-image-center {
   width: 980px;
+  height: 150px;
 }
 
 .background-image-right {

@@ -20,7 +20,8 @@
     <div class='top-header'>
       <div class="top-header-inner">
         <div class="top-header-logo">
-          <a href="#"><img src="{{ asset('storage/img/header/logo.png') }}" alt="LaravelGame - 国内最大級のゲームアプリ情報・攻略サイト"></a>
+          <a href="#"><img src="{{ asset('storage/img/header/logo.png') }}"
+              alt="LaravelGame - 国内最大級のゲームアプリ情報・攻略サイト"></a>
         </div>
         <div class="top-header-link">
           <ul>
@@ -63,15 +64,21 @@
   {{-- // TOP検索 --}}
   {{-- // ヘッダー --}}
 
+  {{-- mainメニュー --}}
   {{-- 背景画像 --}}
-  <div class="main-background">
-    <img class="main-background background-image-left" src="{{ asset('storage/img/main/background/left.png') }}" alt="左メイン画像">
-    <img class="main-background background-image-center" src="{{ asset('storage/img/main/background/center.png') }}" alt="中央メイン画像">
-    <img class="main-background background-image-right" src="{{ asset('storage/img/main/background/right.png') }}" alt="右メイン画像">
+  <div class="top-main-contents">
+    <div class="top-background-img-flex">
+    <img class="image-line-up background-image-left" src="{{ asset('storage/img/main/background/left.png') }}"
+      alt="左メイン画像">
+      <img class="image-line-up background-image-center" src="{{ asset('storage/img/main/background/center.png') }}"
+        alt="中央メイン画像">
+      <img class="image-line-up background-image-right" src="{{ asset('storage/img/main/background/right.png') }}"
+        alt="右メイン画像">
+    </div>
   </div>
+
   {{-- // 背景画像 --}}
 
-  {{-- mainメニュー --}}
   {{-- ニュース、コラボ、その他 --}}
   圧倒的グラフィックの三国志
   圧倒的グラフィックの三国志
@@ -487,21 +494,20 @@
 
   フォートナイト バトルロイヤル for モバイル
   3,404人が参加中
+  </div>
   {{-- //右サイドメニュー --}}
 
   {{-- フッター --}}
-  <div.background-image>
-    <nav>
-      <li>トップ</li>
-      <li>ヘルプ</li>
-      <li>運営会社</li>
-      <li>採用情報</li>
-      <li>利用規約</li>
-      <li>プライバシーポリシー</li>
-      <li>広告のご案内</li>
-      <li>お問い合わせ</li>
-    </nav>
-  </div.background-image->
+  <nav>
+    <li>トップ</li>
+    <li>ヘルプ</li>
+    <li>運営会社</li>
+    <li>採用情報</li>
+    <li>利用規約</li>
+    <li>プライバシーポリシー</li>
+    <li>広告のご案内</li>
+    <li>お問い合わせ</li>
+  </nav>
   LaravelGame(English)LaravelGame(繁體中文版)
   Copyright (C) LaravelGame All Rights Reserved.
   {{-- フッター --}}
