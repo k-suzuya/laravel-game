@@ -23,12 +23,12 @@ hr {
   width: max-content;
   margin: 0 auto;
   font-size: 14px;
+  position: relative;
 }
 
 .top-main-inner {
   width: 980px;
   margin: 0 auto;
-  position: relative;
 }
 
 /* .top-contents-img-center-outer {
@@ -43,8 +43,8 @@ hr {
 
 .top-contents-img-left {
   position: absolute;
-  left: -70px;
-  top: 149px;
+  left: -300px;
+  top: 0px;
 }
 
 .top-contents-img-left img {
@@ -54,8 +54,8 @@ hr {
 
 .top-contents-img-right {
   position: absolute;
-  right: -70px;
-  top: 149px;
+  right: -300px;
+  top: 0px;
 }
 
 .top-contents-img-right img {
