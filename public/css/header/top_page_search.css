@@ -29,10 +29,16 @@ hr {
 .top-header-inner-search {
   width: 980px;
   margin: 0 auto;
+  display : -webkit-box;     /* old Android */
+  display : -webkit-flex;    /* Safari etc. */
+  display : -ms-flexbox;     /* IE10        */
   display:flex;
 }
 
 .top-header-text {
+  display : -webkit-box;     /* old Android */
+  display : -webkit-flex;    /* Safari etc. */
+  display : -ms-flexbox;     /* IE10        */
   display:flex;
   align-items: center;
 }
@@ -46,6 +52,9 @@ hr {
 }
 
 .top-header-search-box {
+  display : -webkit-box;     /* old Android */
+  display : -webkit-flex;    /* Safari etc. */
+  display : -ms-flexbox;     /* IE10        */
   display:flex;
   align-items: center;
 }
