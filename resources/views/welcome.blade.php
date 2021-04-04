@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  {{-- heder --}}
   <link rel="stylesheet" href="css/header/top_page_header.css">
   <link rel="stylesheet" href="css/header/top_page_search.css">
   <link rel="stylesheet" href="css/header/top_page_nav.css">
+  {{-- main --}}
+  <link rel="stylesheet" href="css/main/top_background_image.css">
   <title>laravel-game</title>
 </head>
 
@@ -61,14 +64,10 @@
   {{-- // ヘッダー --}}
 
   {{-- 背景画像 --}}
-  <div class="background-image-left">
-
-  </div>
-  <div class="background-image-center">
-
-  </div>
-  <div class="background-image-right">
-
+  <div class="main-background">
+    <img class="main-background background-image-left" src="{{ asset('storage/img/main/background/left.png') }}" alt="左メイン画像">
+    <img class="main-background background-image-center" src="{{ asset('storage/img/main/background/center.png') }}" alt="中央メイン画像">
+    <img class="main-background background-image-right" src="{{ asset('storage/img/main/background/right.png') }}" alt="右メイン画像">
   </div>
   {{-- // 背景画像 --}}
 

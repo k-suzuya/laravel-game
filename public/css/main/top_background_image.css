@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+  font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+  margin: 0;
+  border-top: solid 2px #34B792;
+}
+
+h1 {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  color: #D9D9D9;
+  opacity:0.3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-background {
+  display : -webkit-box;     /* old Android */
+  display : -webkit-flex;    /* Safari etc. */
+  display : -ms-flexbox;     /* IE10        */
+  display: flex;
+}
+
+/* メイン背景画像上揃え */
+.main-background {
+  -webkit-align-items: flex-start;  /* Safari etc. */
+  -ms-align-items    : flex-start;  /* IE10        */
+  align-items: flex-start;
+}
+
+.background-image-left {
+  width: 230px;
+}
+
+.background-image-center {
+  width: 980px;
+}
+
+.background-image-right {
+  width: 230px;
+}
