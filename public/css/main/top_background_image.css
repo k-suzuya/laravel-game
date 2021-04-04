@@ -19,36 +19,46 @@ hr {
   box-sizing: border-box;
 }
 
-.top-main-contents {
+.top-main-outer {
   width: max-content;
   margin: 0 auto;
   font-size: 14px;
 }
 
-.top-background-img-flex {
-  margin: 0 auto;
-  display : -webkit-box;     /* old Android */
-  display : -webkit-flex;    /* Safari etc. */
-  display : -ms-flexbox;     /* IE10        */
-  display: flex;
-}
-
-/* メイン背景画像上揃え */
-.image-line-up {
-  -webkit-align-items: flex-start;  /* Safari etc. */
-  -ms-align-items    : flex-start;  /* IE10        */
-  align-items: flex-start;
-}
-
-.background-image-left {
-  width: 230px;
-}
-
-.background-image-center {
+.top-main-inner {
   width: 980px;
-  height: 150px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.background-image-right {
-  width: 230px;
+/* .top-contents-img-center-outer {
+  text-align: center;
+} */
+
+.top-contents-img-center {
+  height: 150px;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.top-contents-img-left {
+  position: absolute;
+  left: -70px;
+  top: 149px;
+}
+
+.top-contents-img-left img {
+  width: 300px;
+  height: 800px;
+}
+
+.top-contents-img-right {
+  position: absolute;
+  right: -70px;
+  top: 149px;
+}
+
+.top-contents-img-right img {
+  width: 300px;
+  height: 800px;
 }

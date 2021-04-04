@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/header/top_page_nav.css">
   {{-- main --}}
   <link rel="stylesheet" href="css/main/top_background_image.css">
+  <link rel="stylesheet" href="css/main/top_contents_menu.css">
   <title>laravel-game</title>
 </head>
 
@@ -65,19 +66,105 @@
   {{-- // ヘッダー --}}
 
   {{-- mainメニュー --}}
-  {{-- 背景画像 --}}
-  <div class="top-main-contents">
-    <div class="top-background-img-flex">
-    <img class="image-line-up background-image-left" src="{{ asset('storage/img/main/background/left.png') }}"
-      alt="左メイン画像">
-      <img class="image-line-up background-image-center" src="{{ asset('storage/img/main/background/center.png') }}"
-        alt="中央メイン画像">
-      <img class="image-line-up background-image-right" src="{{ asset('storage/img/main/background/right.png') }}"
-        alt="右メイン画像">
+  {{-- 背景画像 中央 --}}
+  <div class="top-main-outer">
+    <div class="top-main-inner">
+      {{-- <div class="top-contents-img-center-outer"> --}}
+      <div class="top-contents-img-center">
+        <img src="{{ asset('storage/img/main/background/center.png') }}" alt="中央メイン画像">
+      </div>
+      {{-- </div> --}}
+    </div>
+    {{-- 背景画像 左 --}}
+    <div class="top-contents-img-left">
+      <img src="{{ asset('storage/img/main/background/left.png') }}" alt="左メイン画像">
+    </div>
+    <div class="top-contents-img-right">
+      <img src="{{ asset('storage/img/main/background/right.png') }}" alt="右メイン画像">
     </div>
   </div>
-
   {{-- // 背景画像 --}}
+
+  {{-- <img class="image-line-up background-image-left" src="{{ asset('storage/img/main/background/left.png') }}"
+  alt="左メイン画像">
+  <img class="image-line-up background-image-right" src="{{ asset('storage/img/main/background/right.png') }}"
+    alt="右メイン画像"> --}}
+  <div class="top-left-menu">
+    {{-- 左サイドメニュー --}}
+    おすすめゲームアプリ
+    RPG RPGのおすすめ
+    アクション アクションのおすすめ
+    シミュレーション シミュレーションのおすすめ
+    パズル パズルゲームのおすすめ
+    スポーツ スポーツのおすすめ
+    音ゲー 音ゲーのおすすめ
+    シューティングゲーム シューティングゲームのおすすめ
+    カードゲーム カードゲームのおすすめ
+    レースゲーム レースゲームのおすすめ
+    脱出ゲーム 脱出ゲームのおすすめ
+    女性向けゲーム 女性向けゲームのおすすめ
+    原作ありのゲーム 原作ありのゲームのおすすめ
+    MMORPGのゲーム MMORPGのゲームのおすすめ
+    三国志・戦国系のゲーム 三国志・戦国系ゲームのおすすめ
+    ホラーのゲーム ホラーゲームのおすすめ
+    タワーディフェンスのゲーム タワーディフェンスのおすすめ
+    MOBAのゲーム MOBAのおすすめ
+    謎解きゲームのおすすめ 謎解きゲームのおすすめ
+    美少女ゲームのおすすめ 美少女ゲームのおすすめ
+    育成ゲームのおすすめ 育成ゲームのおすすめ
+    箱庭ゲームのおすすめ 箱庭ゲームのおすすめ
+    オフラインゲームのおすすめ オフラインゲームのおすすめ
+    ハクスラゲームのおすすめ ハクスラゲームのおすすめ
+    放置ゲームのおすすめ 放置ゲームのおすすめ
+    人狼ゲームのおすすめ 人狼ゲームのおすすめ
+    クリッカー(放置系)ゲームのおすすめ
+    おすすめ無料ゲームアプリまとめ
+    暇つぶしゲームアプリ特集！無料で遊べる良作まとめ
+    配信予定のゲームアプリ
+    新作ゲームアプリ 配信カレンダー
+    事前登録
+    【事前登録】ゲームアプリランキング
+    LaravelGame限定事前登録ガチャ
+    PS4
+    【PS4】総合サイトTOP
+    【PS4】ソフト発売日カレンダー
+    【PS4】おすすめソフトまとめ
+    Nintendo Switch
+    【Switch】総合サイトTOP
+    【Switch】ソフト発売日カレンダー
+    【Switch】おすすめソフトまとめ
+    PS5
+    【PS5】総合サイトTOP
+    【PS5】ソフト発売日カレンダー
+    【PS5】おすすめソフトまとめ
+    【PS5】予約/抽選の最新情報まとめ
+    リリース時期からアプリを探す
+    新作ゲームアプリ一覧
+    2021年2月 　
+    2021年1月 　
+    2020年12月 　
+    2020年11月 　
+    2020年10月 　
+    2020年9月 　
+    2020年8月 　
+    2020年7月 　
+    2020年6月 　
+    2020年5月 　
+    2020年4月 　
+    2020年3月
+    2020年リリースのゲームアプリ
+    2019年リリースのゲームアプリ
+    2018年リリースのゲームアプリ
+    2017年リリースのゲームアプリ
+    ジャンルからアプリを探す
+    RPG
+    アクション
+    シミュレーション
+    パズル
+    スポーツ
+    音ゲー
+    {{-- //左サイドメニュー --}}
+  </div>
 
   {{-- ニュース、コラボ、その他 --}}
   圧倒的グラフィックの三国志
@@ -333,80 +420,7 @@
   アプリ
   PS5
 
-  {{-- 左サイドメニュー --}}
-  おすすめゲームアプリ
-  RPG RPGのおすすめ
-  アクション アクションのおすすめ
-  シミュレーション シミュレーションのおすすめ
-  パズル パズルゲームのおすすめ
-  スポーツ スポーツのおすすめ
-  音ゲー 音ゲーのおすすめ
-  シューティングゲーム シューティングゲームのおすすめ
-  カードゲーム カードゲームのおすすめ
-  レースゲーム レースゲームのおすすめ
-  脱出ゲーム 脱出ゲームのおすすめ
-  女性向けゲーム 女性向けゲームのおすすめ
-  原作ありのゲーム 原作ありのゲームのおすすめ
-  MMORPGのゲーム MMORPGのゲームのおすすめ
-  三国志・戦国系のゲーム 三国志・戦国系ゲームのおすすめ
-  ホラーのゲーム ホラーゲームのおすすめ
-  タワーディフェンスのゲーム タワーディフェンスのおすすめ
-  MOBAのゲーム MOBAのおすすめ
-  謎解きゲームのおすすめ 謎解きゲームのおすすめ
-  美少女ゲームのおすすめ 美少女ゲームのおすすめ
-  育成ゲームのおすすめ 育成ゲームのおすすめ
-  箱庭ゲームのおすすめ 箱庭ゲームのおすすめ
-  オフラインゲームのおすすめ オフラインゲームのおすすめ
-  ハクスラゲームのおすすめ ハクスラゲームのおすすめ
-  放置ゲームのおすすめ 放置ゲームのおすすめ
-  人狼ゲームのおすすめ 人狼ゲームのおすすめ
-  クリッカー(放置系)ゲームのおすすめ
-  おすすめ無料ゲームアプリまとめ
-  暇つぶしゲームアプリ特集！無料で遊べる良作まとめ
-  配信予定のゲームアプリ
-  新作ゲームアプリ 配信カレンダー
-  事前登録
-  【事前登録】ゲームアプリランキング
-  LaravelGame限定事前登録ガチャ
-  PS4
-  【PS4】総合サイトTOP
-  【PS4】ソフト発売日カレンダー
-  【PS4】おすすめソフトまとめ
-  Nintendo Switch
-  【Switch】総合サイトTOP
-  【Switch】ソフト発売日カレンダー
-  【Switch】おすすめソフトまとめ
-  PS5
-  【PS5】総合サイトTOP
-  【PS5】ソフト発売日カレンダー
-  【PS5】おすすめソフトまとめ
-  【PS5】予約/抽選の最新情報まとめ
-  リリース時期からアプリを探す
-  新作ゲームアプリ一覧
-  2021年2月 　
-  2021年1月 　
-  2020年12月 　
-  2020年11月 　
-  2020年10月 　
-  2020年9月 　
-  2020年8月 　
-  2020年7月 　
-  2020年6月 　
-  2020年5月 　
-  2020年4月 　
-  2020年3月
-  2020年リリースのゲームアプリ
-  2019年リリースのゲームアプリ
-  2018年リリースのゲームアプリ
-  2017年リリースのゲームアプリ
-  ジャンルからアプリを探す
-  RPG
-  アクション
-  シミュレーション
-  パズル
-  スポーツ
-  音ゲー
-  {{-- //左サイドメニュー --}}
+
 
   {{-- 右サイドメニュー --}}
   攻略取り扱い家庭用ゲーム
