@@ -74,14 +74,12 @@
       </div>
       {{-- 背景画像 左 --}}
       <div class="top-contents-img-left">
-        <img src="{{ asset('storage/img/main/background/left.png') }}" alt="左メイン画像">
       </div>
       {{-- 背景画像 右 --}}
       <div class="top-contents-img-right">
-        <img src="{{ asset('storage/img/main/background/right.png') }}" alt="右メイン画像">
       </div>
     </div>
-    <div class="top-left-menu">
+    <div class="top-main top-left-menu">
       {{-- 左サイドメニュー --}}
       おすすめゲームアプリ
       RPG RPGのおすすめ
