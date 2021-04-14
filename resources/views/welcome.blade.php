@@ -6,12 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   {{-- heder --}}
-  <link rel="stylesheet" href="css/header/top_page_header.css">
-  <link rel="stylesheet" href="css/header/top_page_search.css">
-  <link rel="stylesheet" href="css/header/top_page_nav.css">
+  <link rel="stylesheet" href={{ asset('/css/header/top_page_header.css') }}>
+  <link rel="stylesheet" href={{ asset('/css/header/top_page_search.css') }}>
+  <link rel="stylesheet" href={{ asset('/css/header/top_page_nav.css') }}>
   {{-- main --}}
-  <link rel="stylesheet" href="css/main/top_background_image.css">
-  <link rel="stylesheet" href="css/main/top_contents_menu.css">
+  <link rel="stylesheet" href={{ asset('/css/main/top_background_image.css') }}>
+  <link rel="stylesheet" href={{ asset('/css/main/top_contents_menu.css') }}>
+  {{-- laravel mix読み込み --}}
+  <link rel="stylesheet" href="{{ mix('/css/app.css') }}" type="text/css">
   <title>laravel-game</title>
 </head>
 
@@ -70,7 +72,7 @@
   <div class="top-main-outer">
     <div class="top-main-wrap">
       <div class="top-main">
-        <img src="{{ asset('storage/img/main/background/center.png') }}" alt="中央メイン画像">
+        <img src="{{ asset('/storage/img/main/background/center.png') }}" alt="中央メイン画像">
       </div>
       {{-- 背景画像 左 --}}
       <div class="top-contents-img-left">
@@ -89,7 +91,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_rpg_best.png') }}" alt="RPG">
+                  <img src="{{ asset('/storage/img/main/menu/I_rpg_best.png') }}" alt="RPG">
                 </div>
                 <div class="menu-text-box">
                   <p>RPGのおすすめ</p>
@@ -100,7 +102,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_act_best.png') }}" alt="アクション">
+                  <img src="{{ asset('/storage/img/main/menu/I_act_best.png') }}" alt="アクション">
                 </div>
                 <div class="menu-text-box">
                   <p>アクションのおすすめ</p>
