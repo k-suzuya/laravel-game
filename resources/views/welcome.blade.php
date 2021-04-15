@@ -10,9 +10,9 @@
   {{-- 共通 --}}
   <link rel="stylesheet" href={{ asset('/css/common/common.css') }}>
   {{-- heder --}}
-  <link rel="stylesheet" href={{ asset('/css/header/top_page_header.css') }}>
-  <link rel="stylesheet" href={{ asset('/css/header/top_page_search.css') }}>
-  <link rel="stylesheet" href={{ asset('/css/header/top_page_nav.css') }}>
+  <link rel="stylesheet" href={{ asset('/css/header/top_header.css') }}>
+  <link rel="stylesheet" href={{ asset('/css/header/top_search.css') }}>
+  <link rel="stylesheet" href={{ asset('/css/header/top_nav.css') }}>
   {{-- main --}}
   <link rel="stylesheet" href={{ asset('/css/main/top_background_image.css') }}>
   <link rel="stylesheet" href={{ asset('/css/main/top_contents_menu.css') }}>
@@ -22,13 +22,13 @@
 <body>
   {{-- ヘッダー --}}
   <header>
-    <div class='top-header'>
-      <div class="top-header-inner">
-        <div class="top-header-logo">
+    <div class='header'>
+      <div class="header-inner">
+        <div class="header-logo">
           <a href="#"><img src="{{ asset('storage/img/header/logo.png') }}"
               alt="LaravelGame - 国内最大級のゲームアプリ情報・攻略サイト"></a>
         </div>
-        <div class="top-header-link">
+        <div class="header-link">
           <ul>
             <li><a href="#">ホーム</a></li>
             <li><a href="#"><img src="{{ asset('storage/img/header/new_regist.png') }}" alt="新規登録">新規登録</a></li>
@@ -37,14 +37,14 @@
         </div>
       </div>
     </div>
-    <hr>
+    {{-- <hr> --}}
     {{-- TOP検索 --}}
-    <div class='top-header-search'>
-      <div class="top-header-inner-search">
-        <div class="top-header-text">
+    <div class='header-search'>
+      <div class="header-search-inner">
+        <div class="header-text">
           <h1>ララベルゲーム(LaravelGame) - 日本最大級のゲームレビュー・攻略サイト</h1>
         </div>
-        <div class="top-header-search-box">
+        <div class="header-search-box">
           <form action="/" method="GET">
             <input type="text" name="header_search" placeholder="LaravelGame内から検索">
             <input type="submit" value="検索">
@@ -53,8 +53,8 @@
       </div>
     </div>
     <hr>
-    <div class="top-header-nav">
-      <div class="top-header-inner-nav">
+    <div class="header-nav">
+      <div class="header-nav-inner">
         <nav>
           <li><a href="#">トップ</a></li>
           <li><a href="#">アプリ</a></li>
@@ -71,20 +71,20 @@
 
   {{-- mainメニュー --}}
   {{-- 背景画像 中央 --}}
-  <div class="top-main-outer">
-    <div class="top-main-wrap">
-      <div class="top-main">
+  <div class="main">
+    <div class="main-inner">
+      <div class="main-img-center">
         <img src="{{ asset('/storage/img/main/background/center.png') }}" alt="中央メイン画像">
       </div>
       {{-- 背景画像 左 --}}
-      <div class="top-contents-img-left">
+      <div class="main-img-left">
       </div>
       {{-- 背景画像 右 --}}
-      <div class="top-contents-img-right">
+      <div class="main-img-right">
       </div>
     </div>
     <section>
-      <div id="top-main-container">
+      <div id="main-container">
         <div class="top-left-menu">
           {{-- 左サイドメニュー --}}
           <h2>おすすめゲームアプリ</h2>
@@ -214,7 +214,7 @@
           </ul>
           {{-- //左サイドメニュー --}}
         </div>
-        <div class="top-center-menu">
+        <div class="center-menu">
           {{-- ニュース、コラボ、その他 --}}
           圧倒的グラフィックの三国志
           圧倒的グラフィックの三国志
@@ -470,7 +470,7 @@
           PS5
         </div>
 
-        <div class="top-right-menu">
+        <div class="right-menu">
           {{-- 右サイドメニュー --}}
           攻略取り扱い家庭用ゲーム
           モンスターハンターライズ

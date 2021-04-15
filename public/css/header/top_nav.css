@@ -1,23 +1,23 @@
 @charset "UTF-8";
 
-.top-header-nav {
+.header-nav {
   width: max-content;
   margin: 0 auto;
   font-size: 14px;
 }
 
-.top-header-inner-nav {
+.header-nav-inner {
   width: 980px;
   margin: 0 auto;
 }
 
-.top-header-inner-nav nav {
+.header-nav-inner nav {
   height: 50px;
   line-height: 50px;
   font-size:0;
 }
 
-.top-header-inner-nav nav li {
+.header-nav-inner nav li {
   position: relative;
   list-style: none;
   display: inline-block;
@@ -28,13 +28,13 @@
   cursor:pointer
 }
 
-.top-header-inner-nav nav li:hover {
+.header-nav-inner nav li:hover {
   background-color: #ECF0F1;
 }
 
 /* 最初の要素の左縦線 */
 /* 課題：positionの使い方がわかっていない。。 */
-.top-header-inner-nav nav li:first-of-type::before {
+.header-nav-inner nav li:first-of-type::before {
   content: '';
   border-left: 1px solid #f2f2f2;
   height: 20px;
@@ -46,7 +46,7 @@
 
 /* 右縦線 */
 /* 課題：positionの使い方がわかっていない。。 */
-.top-header-inner-nav nav li::after {
+.header-nav-inner nav li::after {
   z-index: 1;
   content: '';
   border-left: 1px solid #f2f2f2;
@@ -57,7 +57,7 @@
   margin-top: -10px;
 }
 
-.top-header-inner-nav nav li a {
+.header-nav-inner nav li a {
   text-decoration: none; 
   font-weight: 700;
   color: #444;

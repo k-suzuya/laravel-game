@@ -1,33 +1,33 @@
 @charset "UTF-8";
 
-#top-main-container {
+#main-container {
   width: 980px;
   margin: 0 auto;
   padding-top: 20px;
 }
 
-#top-main-container .top-left-menu {
+#main-container .top-left-menu {
   display: inline-block;
   width: 210px;
   padding-left: 10px;
   margin-right: 10px;
 }
 
-#top-main-container .top-left-menu h2 {
+#main-container .top-left-menu h2 {
   font-size: 20px;
   font-weight: 400;
 }
 
-#top-main-container hr.boder-solid {
+#main-container hr.boder-solid {
   color: #E5E5E5;
 }
 
-#top-main-container .top-left-menu-box {
+#main-container .top-left-menu-box {
   margin: 0;
   padding: 0;
 }
 
-#top-main-container li.menu-wrap {
+#main-container li.menu-wrap {
   display : -webkit-box;     /* old Android */
   display : -webkit-flex;    /* Safari etc. */
   display : -ms-flexbox;     /* IE10        */
@@ -37,20 +37,20 @@
   align-items: center;
 }
 
-#top-main-container li.menu-wrap:hover {
+#main-container li.menu-wrap:hover {
   cursor: pointer;
   background-color: #F2F2F2;
 }
 
-#top-main-container hr.boder-solid {
+#main-container hr.boder-solid {
   border: solid 1px #d3d3d3;
 }
 
-#top-main-container hr {
+#main-container hr {
   border: dotted 1px #d3d3d3;
 }
 
-#top-main-container a {
+#main-container a {
   display : -webkit-box;     /* old Android */
   display : -webkit-flex;    /* Safari etc. */
   display : -ms-flexbox;     /* IE10        */
@@ -60,12 +60,12 @@
   color: #448ACB;
 }
 
-#top-main-container .menu-img-box {
+#main-container .menu-img-box {
   height: 30px;
   padding-right: 10px;
 }
 
-#top-main-container .menu-img-box img {
+#main-container .menu-img-box img {
   width: 30px;
   height: 30px;
   border: 1px solid #e5e5e5;
@@ -73,15 +73,15 @@
 
 }
 
-#top-main-container .menu-text-box {
+#main-container .menu-text-box {
   font-size: 14px;
 }
 
-#top-main-container .menu-text-box p {
+#main-container .menu-text-box p {
   margin: 0;
 }
 
-.top-center-menu {
+.center-menu {
   display: inline-block;
   /* 上揃え */
   vertical-align: top;
@@ -89,7 +89,7 @@
   background-color: bisque;
 }
 
-.top-right-menu {
+.right-menu {
   display: inline-block;
   /* 上揃え */
   vertical-align: top;
