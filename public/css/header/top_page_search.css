@@ -1,23 +1,4 @@
 @charset "UTF-8";
-body {
-  font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
-  margin: 0;
-  border-top: solid 2px #34B792;
-}
-
-h1 {
-  margin: 0;
-}
-
-hr {
-  margin: 0;
-  color: #D9D9D9;
-  opacity:0.3;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 .top-header-search {
   width: max-content;
@@ -61,7 +42,7 @@ hr {
 /* 検索窓 */
 /* 後でjsを使って切り替え必要かも */
 .top-header-search-box input[type="text"] {
-  padding: 10px 40px 10px 5px;
+  padding: 10px;
   width: 200px;
   border: 1px solid #D9D9D9;
   color: #D9D9D9;

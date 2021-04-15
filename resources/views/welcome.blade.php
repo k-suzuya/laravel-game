@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  {{-- laravel mix読み込み --}}
+  <link rel="stylesheet" href="{{ mix('/css/app.css') }}" type="text/css">
+  {{-- 共通 --}}
+  <link rel="stylesheet" href={{ asset('/css/common/common.css') }}>
   {{-- heder --}}
   <link rel="stylesheet" href={{ asset('/css/header/top_page_header.css') }}>
   <link rel="stylesheet" href={{ asset('/css/header/top_page_search.css') }}>
@@ -12,8 +16,6 @@
   {{-- main --}}
   <link rel="stylesheet" href={{ asset('/css/main/top_background_image.css') }}>
   <link rel="stylesheet" href={{ asset('/css/main/top_contents_menu.css') }}>
-  {{-- laravel mix読み込み --}}
-  <link rel="stylesheet" href="{{ mix('/css/app.css') }}" type="text/css">
   <title>laravel-game</title>
 </head>
 
