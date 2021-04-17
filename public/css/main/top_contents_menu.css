@@ -8,14 +8,14 @@
 
 #main-container .top-left-menu {
   display: inline-block;
-  width: 210px;
+  width: 220px;
   padding-left: 10px;
-  margin-right: 10px;
 }
 
 #main-container .top-left-menu h2 {
   font-size: 20px;
   font-weight: 400;
+  margin: 15px 10px 15px 0px;
 }
 
 #main-container hr.boder-solid {
@@ -79,6 +79,15 @@
 
 #main-container .menu-text-box p {
   margin: 0;
+}
+
+.center-menu {
+  display: inline-block;
+  /* 上揃え */
+  vertical-align: top;
+  width: 420px;
+  margin-left: 20px;
+  background-color: bisque;
 }
 
 #app {
@@ -157,14 +166,6 @@
   color: #FFFFFF;
   font-size: 12px;
   font-weight: 700;
-}
-
-.center-menu {
-  display: inline-block;
-  /* 上揃え */
-  vertical-align: top;
-  width: 420px;
-  background-color: bisque;
 }
 
 .right-menu {
