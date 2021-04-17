@@ -6,16 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   {{-- laravel mix読み込み --}}
-  <link rel="stylesheet" href="{{ mix('/css/app.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ mix('css/app.css') }}" type="text/css">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
   {{-- 共通 --}}
-  <link rel="stylesheet" href={{ asset('/css/common/common.css') }}>
+  <link rel="stylesheet" href={{ asset('css/common/common.css') }}>
   {{-- heder --}}
-  <link rel="stylesheet" href={{ asset('/css/header/top_header.css') }}>
-  <link rel="stylesheet" href={{ asset('/css/header/top_search.css') }}>
-  <link rel="stylesheet" href={{ asset('/css/header/top_nav.css') }}>
+  <link rel="stylesheet" href={{ asset('css/header/top_header.css') }}>
+  <link rel="stylesheet" href={{ asset('css/header/top_search.css') }}>
+  <link rel="stylesheet" href={{ asset('css/header/top_nav.css') }}>
   {{-- main --}}
-  <link rel="stylesheet" href={{ asset('/css/main/top_background_image.css') }}>
-  <link rel="stylesheet" href={{ asset('/css/main/top_contents_menu.css') }}>
+  <link rel="stylesheet" href={{ asset('css/main/top_background_image.css') }}>
+  <link rel="stylesheet" href={{ asset('css/main/top_contents_menu.css') }}>
   <title>laravel-game</title>
 </head>
 
@@ -216,6 +217,9 @@
         </div>
         <div class="center-menu">
           {{-- ニュース、コラボ、その他 --}}
+          <div id="app">
+            <example-component></example-component>
+          </div>
           圧倒的グラフィックの三国志
           圧倒的グラフィックの三国志
 
@@ -561,7 +565,7 @@
       </div>
     </section>
   </div>
-  {{-- //右サイドメニュー --}}
+  {{-- // 右サイドメニュー --}}
   </div>
 
   {{-- フッター --}}
@@ -577,7 +581,10 @@
   </nav>
   LaravelGame(English)LaravelGame(繁體中文版)
   Copyright (C) LaravelGame All Rights Reserved.
-  {{-- フッター --}}
+  {{-- // フッター --}}
+  {{-- scriptの読み込み --}}
+  <script src="{{ mix('js/app.js') }}"
+  {{-- // scriptの読み込み --}}
 </body>
 
 </html>

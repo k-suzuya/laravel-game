@@ -1924,9 +1924,46 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
-    console.log('Component mounted.');
+    console.log("Component mounted.");
   }
 });
 
@@ -37593,28 +37630,87 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "main-img-center-slider" }, [
+    _c("div", { staticClass: "main-img-center-slider-inner" }, [
+      _c("a", { attrs: { href: "#" } }, [
+        _c("img", {
+          attrs: {
+            src: "img/main/slider/slider_1.webp",
+            alt: "スライダー画像1"
+          }
+        }),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "main-img-center-slider-inner" }, [
+      _c("a", { attrs: { href: "#" } }, [
+        _c("img", {
+          attrs: {
+            src: "img/main/slider/slider_2.webp",
+            alt: "スライダー画像2"
+          }
+        }),
+        _vm._v(" "),
+        _vm._m(1)
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "main-img-center-slider-inner" }, [
+      _c("a", { attrs: { href: "#" } }, [
+        _c("img", {
+          attrs: {
+            src: "img/main/slider/slider_3.webp",
+            alt: "スライダー画像3"
+          }
+        }),
+        _vm._v(" "),
+        _vm._m(2)
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              )
-            ])
-          ])
-        ])
+    return _c("div", { staticClass: "main-img-center-slider-label" }, [
+      _c("div", { staticClass: "collabo-label" }, [
+        _c("span", [_vm._v("コラボ")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "label-text" }, [
+        _c("span", [_vm._v("ダークRPGでFFコラボ！")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "main-img-center-slider-label" }, [
+      _c("div", { staticClass: "news-label" }, [
+        _c("span", [_vm._v("ニュース")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "label-text" }, [
+        _c("span", [_vm._v("極上の世界観が味わえるRPG！")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "main-img-center-slider-label" }, [
+      _c("div", { staticClass: "news-label" }, [
+        _c("span", [_vm._v("ニュース")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "label-text" }, [
+        _c("span", [_vm._v("大作戦略ゲームが大型アプデ")])
       ])
     ])
   }
