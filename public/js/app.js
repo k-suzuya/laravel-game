@@ -1961,6 +1961,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Component mounted.");
@@ -37640,7 +37652,9 @@ var render = function() {
           }
         }),
         _vm._v(" "),
-        _vm._m(0)
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._m(1)
       ])
     ]),
     _vm._v(" "),
@@ -37653,7 +37667,9 @@ var render = function() {
           }
         }),
         _vm._v(" "),
-        _vm._m(1)
+        _vm._m(2),
+        _vm._v(" "),
+        _vm._m(3)
       ])
     ]),
     _vm._v(" "),
@@ -37666,7 +37682,9 @@ var render = function() {
           }
         }),
         _vm._v(" "),
-        _vm._m(2)
+        _vm._m(4),
+        _vm._v(" "),
+        _vm._m(5)
       ])
     ])
   ])
@@ -37690,6 +37708,15 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "sab-label-box" }, [
+      _c("span", [_vm._v("#アプリ")]),
+      _vm._v("\n                #FFコラボ\n            ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "main-img-center-slider-label" }, [
       _c("div", { staticClass: "news-label" }, [
         _c("span", [_vm._v("ニュース")])
@@ -37704,6 +37731,15 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "sab-label-box" }, [
+      _c("span", [_vm._v("#アプリ")]),
+      _vm._v("\n                #事前登録受付中\n            ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "main-img-center-slider-label" }, [
       _c("div", { staticClass: "news-label" }, [
         _c("span", [_vm._v("ニュース")])
@@ -37712,6 +37748,15 @@ var staticRenderFns = [
       _c("div", { staticClass: "label-text" }, [
         _c("span", [_vm._v("大作戦略ゲームが大型アプデ")])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "sab-label-box" }, [
+      _c("span", [_vm._v("#アプリ")]),
+      _vm._v("\n                #SSR2枚確定\n            ")
     ])
   }
 ]
