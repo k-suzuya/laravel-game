@@ -1,0 +1,18 @@
+body {
+  font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  color: #D9D9D9;
+  opacity:0.3;
+}
+
+* {
+  box-sizing: border-box;
+}

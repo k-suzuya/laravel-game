@@ -1,47 +1,28 @@
 @charset "UTF-8";
-body {
-  font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
-  margin: 0;
-  border-top: solid 2px #34B792;
-}
 
-h1 {
-  margin: 0;
-}
-
-hr {
-  margin: 0;
-  color: #D9D9D9;
-  opacity:0.3;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.top-main-outer {
+.main {
   width: 100%;
   overflow: hidden;
 }
 
-.top-main-wrap {
+.main-inner {
   width: max-content;
   margin: 0 auto;
   font-size: 14px;
   position: relative;
 }
 
-.top-main {
+.main-img-center {
   width: 980px;
   margin: 0 auto;
 }
 
-.top-main img {
+.main-img-center img {
   width: 980px;
   height: 150px;
 }
 
-.top-contents-img-left {
+.main-img-left {
   position: absolute;
   left: -300px;
   top: 0px;
@@ -50,7 +31,7 @@ hr {
   background-image: url('../../img/main/background/left.png');
 }
 
-.top-contents-img-right {
+.main-img-right {
   position: absolute;
   right: -300px;
   top: 0px;

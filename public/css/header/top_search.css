@@ -1,32 +1,14 @@
 @charset "UTF-8";
-body {
-  font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
-  margin: 0;
-  border-top: solid 2px #34B792;
-}
 
-h1 {
-  margin: 0;
-}
-
-hr {
-  margin: 0;
-  color: #D9D9D9;
-  opacity:0.3;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.top-header-search {
-  width: max-content;
+.header-search {
+  width: 100%;
   height: 50px;
   margin: 0 auto;
   font-size: 14px;
+  border-bottom: 1px solid #d9d9d9;
 }
 
-.top-header-inner-search {
+.header-search-inner {
   width: 980px;
   margin: 0 auto;
   display : -webkit-box;     /* old Android */
@@ -35,7 +17,7 @@ hr {
   display:flex;
 }
 
-.top-header-text {
+.header-text {
   display : -webkit-box;     /* old Android */
   display : -webkit-flex;    /* Safari etc. */
   display : -ms-flexbox;     /* IE10        */
@@ -43,14 +25,14 @@ hr {
   align-items: center;
 }
 
-.top-header-text h1 {
+.header-text h1 {
   margin-right: 290px;
   font-size: 12px;
   font-weight: 400;
   line-height: 50px;
 }
 
-.top-header-search-box {
+.header-search-box {
   display : -webkit-box;     /* old Android */
   display : -webkit-flex;    /* Safari etc. */
   display : -ms-flexbox;     /* IE10        */
@@ -60,9 +42,10 @@ hr {
 
 /* 検索窓 */
 /* 後でjsを使って切り替え必要かも */
-.top-header-search-box input[type="text"] {
-  padding: 10px 40px 10px 5px;
+.header-search-box input[type="text"] {
+  padding: 10px;
   width: 200px;
+  height: 40px;
   border: 1px solid #D9D9D9;
   color: #D9D9D9;
   background-color: white;
@@ -70,25 +53,25 @@ hr {
 
 /* プレースホルダー設定 */
 /* 後でjsを使って切り替え必要かも */
-.top-header-search-box input[type="text"]:placeholder-shown {
+.header-search-box input[type="text"]:placeholder-shown {
   color:#D9D9D9;
 }
 
 /* プレースホルダー設定 */
 /* 後でjsを使って切り替え必要かも */
-.top-header-search-box input[type="text"]::-webkit-input-placeholder {
+.header-search-box input[type="text"]::-webkit-input-placeholder {
   color:#D9D9D9;
 }
 
 /* 検索窓が押された時 */
 /* 後でjsを使って切り替え必要かも */
-.top-header-search-box input[type="text"]:focus {
+.header-search-box input[type="text"]:focus {
   color: black;
   background-color: white;
   /* opacity: 1; */
 }
 
-.top-header-search-box input[type="submit"] {
+.header-search-box input[type="submit"] {
   padding: 8px 3px;
   width: 65px;
   margin-left: 2px;
