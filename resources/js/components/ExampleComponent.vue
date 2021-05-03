@@ -1,5 +1,11 @@
 <template>
     <div class="main-img-center-slider">
+      <div class="left-pointer">
+        <img :src="'img/main/slider/left_pointer.png'" />
+      </div>
+      <div class="right-pointer">
+        <img :src="'img/main/slider/right_pointer.png'" />
+      </div>
         <div class="main-img-center-slider-inner">
             <a href="#">
                 <img

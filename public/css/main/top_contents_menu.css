@@ -98,12 +98,55 @@
 }
 
 #app .main-img-center-slider {
-  padding: 10px 8px;
-  width: 410px;
+  position:relative;
+  padding: 10px 0 10px 8px;
+  width: 100%;
   height: 205px;
   /* 画像折り返ししない */
   white-space: nowrap;
   overflow: hidden;
+}
+
+#app .main-img-center-slider .left-pointer {
+  position: absolute;
+  display: inline-block;
+  width: 28px;
+  height: 57px;
+  top: 30%;
+  left: 0px;
+  border-radius:0 100px 100px 0;
+  cursor: pointer;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.3);
+}
+
+#app .main-img-center-slider .right-pointer {
+  position: absolute;
+  display: inline-block;
+  width: 28px;
+  height: 57px;
+  top: 30%;
+  right: 0px;
+  border-radius:100px 0 0 100px;
+  cursor: pointer;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.left-pointer > img {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate(5px, 15px);
+  width: 10px;
+  height: 18px;
+}
+
+.right-pointer > img {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate(10px, 15px);
+  width: 10px;
+  height: 18px;
 }
 
 #app .main-img-center-slider-inner {

@@ -1973,6 +1973,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Component mounted.");
@@ -17313,6 +17319,17 @@ if ( typeof noGlobal === "undefined" ) {
 return jQuery;
 } );
 
+
+/***/ }),
+
+/***/ "./node_modules/lodash/index.js":
+/*!**************************************!*\
+  !*** ./node_modules/lodash/index.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./lodash */ "./node_modules/lodash/lodash.js");
 
 /***/ }),
 
@@ -37643,6 +37660,14 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "main-img-center-slider" }, [
+    _c("div", { staticClass: "left-pointer" }, [
+      _c("img", { attrs: { src: "img/main/slider/left_pointer.png" } })
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "right-pointer" }, [
+      _c("img", { attrs: { src: "img/main/slider/right_pointer.png" } })
+    ]),
+    _vm._v(" "),
     _c("div", { staticClass: "main-img-center-slider-inner" }, [
       _c("a", { attrs: { href: "#" } }, [
         _c("img", {
@@ -49961,7 +49986,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/index.js");
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
  * for JavaScript based Bootstrap features such as modals and tabs. This
