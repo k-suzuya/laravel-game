@@ -22,7 +22,10 @@
 ・vue → 2.5.17  
 
 ・vue-template-compiler → 2.6.10  
- 
+
+・swiper → 5.4.5
+
+・vue-awesome-swiper → 4.1.1
 # 環境構築方法
 
 1. 以下コマンドでgit clone  
