@@ -60723,8 +60723,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/kor/Desktop/git_game/laravel-game_verification/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/kor/Desktop/git_game/laravel-game_verification/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/kor/Desktop/git_game/laravel-game/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/kor/Desktop/git_game/laravel-game/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
