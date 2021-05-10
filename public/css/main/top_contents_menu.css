@@ -86,14 +86,14 @@
   vertical-align: top;
   width: 420px;
   margin-left: 20px;
-  background-color: bisque;
+  background-color: #EEEEEE;
+  border: 1px solid #E2E2E2;
 }
 
 #app {
   width: 420px;
   height: 205px;
-  background-color: #EEEEEE;
-  border: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
 }
 
 #app .main-img-center-slider {
