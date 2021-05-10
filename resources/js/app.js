@@ -7,13 +7,13 @@ import 'swiper/css/swiper.css'
 Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
 
 // vueコンポーネント
-import ExampleComponent from './components/ExampleComponent.vue'
+import SliderMenuComponent from './components/SliderMenuComponent.vue'
 
 
 const app = new Vue({
     el: '#app',
     components: {
-      ExampleComponent,
+      SliderMenuComponent,
       VueAwesomeSwiper,
     }
 });
