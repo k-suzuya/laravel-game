@@ -6474,7 +6474,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#app .swiper-container {\n    width: 100%;\n    height: 100%;\n    z-index: 0;\n}\n#app .swiper-slide {\n    font-size: 18px;\n    /* Center slide text vertically */\n    display: flex;\n    justify-content: flex-start;\n    align-items: align-items;\n}\n.swiper-slide img {\n    width: 280px;\n    height: 160px;\n    border-radius: 3px;\n}\n\n/* 前、次ページボタンのスタイル上書き */\n.swiper-button-prev:after,\n.swiper-button-next:after {\n    font-size: var(--swiper-navigation-size);\n    text-transform: none !important;\n    letter-spacing: 0;\n    text-transform: none;\n    font-variant: initial;\n}\n\n/* 前、次ページボタンのスタイル上書き */\n.swiper-button-prev:after,\n.swiper-container-rtl .swiper-button-next:after {\n    content: \"\";\n}\n\n/* 前、次ページボタンのスタイル上書き */\n.swiper-button-next:after,\n.swiper-container-rtl .swiper-button-prev:after {\n    content: \"\";\n}\n\n/* 前ページボタンのスタイル */\n.swiper-button-prev {\n    position: absolute;\n    display: inline-block;\n    width: 28px;\n    height: 57px;\n    top: 40%;\n    left: 0px;\n    border-radius: 0 100px 100px 0;\n    cursor: pointer;\n    z-index: 1;\n    background-color: rgba(0, 0, 0, 0.3);\n    background-image: url(" + escape(__webpack_require__(/*! ../../../public/img/main/slider/left_pointer.png */ "./public/img/main/slider/left_pointer.png")) + ");\n    background-size: 10px 15px; /* 背景画像としてのサイズ（＝表示したい画像サイズ） */\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n/* 次ページボタンのスタイル */\n.swiper-button-next {\n    position: absolute;\n    display: inline-block;\n    width: 28px;\n    height: 57px;\n    top: 40%;\n    right: 0px;\n    border-radius: 100px 0 0 100px;\n    cursor: pointer;\n    z-index: 1;\n    background-color: rgba(0, 0, 0, 0.3);\n    background-image: url(" + escape(__webpack_require__(/*! ../../../public/img/main/slider/right_pointer.png */ "./public/img/main/slider/right_pointer.png")) + ");\n    background-size: 10px 15px; /* 背景画像としてのサイズ（＝表示したい画像サイズ） */\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n/* 前、次ページがなかった場合、カーソル非表示 */\n.swiper-button-disabled {\n    display: none;\n}\n", ""]);
+exports.push([module.i, "\n#app .swiper-container {\n    width: 100%;\n    height: 100%;\n    z-index: 0;\n}\n#app .swiper-slide {\n    font-size: 18px;\n    /* Center slide text vertically */\n    display: flex;\n    justify-content: flex-start;\n    align-items: align-items;\n}\n.swiper-slide img {\n    width: 280px;\n    height: 160px;\n    border-radius: 3px;\n}\n\n/* 前、次ページボタンのスタイル上書き */\n.swiper-button-prev:after,\n.swiper-button-next:after {\n    font-size: var(--swiper-navigation-size);\n    text-transform: none !important;\n    letter-spacing: 0;\n    text-transform: none;\n    font-variant: initial;\n}\n\n/* 前、次ページボタンのスタイル上書き */\n.swiper-button-prev:after,\n.swiper-container-rtl .swiper-button-next:after {\n    content: \"\";\n}\n\n/* 前、次ページボタンのスタイル上書き */\n.swiper-button-next:after,\n.swiper-container-rtl .swiper-button-prev:after {\n    content: \"\";\n}\n\n/* 前ページボタンのスタイル */\n.swiper-button-prev {\n    position: absolute;\n    display: inline-block;\n    width: 28px;\n    height: 57px;\n    top: 40%;\n    left: 0px;\n    border-radius: 0 100px 100px 0;\n    cursor: pointer;\n    z-index: 1;\n    background-color: rgba(0, 0, 0, 0.3);\n    background-image: url(" + escape(__webpack_require__(/*! ../../../public/images/top/menu/slider/prev.png */ "./public/images/top/menu/slider/prev.png")) + ");\n    background-size: 10px 15px; /* 背景画像としてのサイズ（＝表示したい画像サイズ） */\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n/* 次ページボタンのスタイル */\n.swiper-button-next {\n    position: absolute;\n    display: inline-block;\n    width: 28px;\n    height: 57px;\n    top: 40%;\n    right: 0px;\n    border-radius: 100px 0 0 100px;\n    cursor: pointer;\n    z-index: 1;\n    background-color: rgba(0, 0, 0, 0.3);\n    background-image: url(" + escape(__webpack_require__(/*! ../../../public/images/top/menu/slider/next.png */ "./public/images/top/menu/slider/next.png")) + ");\n    background-size: 10px 15px; /* 背景画像としてのサイズ（＝表示したい画像サイズ） */\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n/* 前、次ページがなかった場合、カーソル非表示 */\n.swiper-button-disabled {\n    display: none;\n}\n", ""]);
 
 // exports
 
@@ -48257,7 +48257,7 @@ var render = function() {
             _c("a", { attrs: { href: "#" } }, [
               _c("img", {
                 attrs: {
-                  src: "img/main/slider/slider_1.webp",
+                  src: "images/top/menu/slider/slider_1.webp",
                   alt: "スライダー画像1"
                 }
               }),
@@ -48283,7 +48283,7 @@ var render = function() {
             _c("a", { attrs: { href: "#" } }, [
               _c("img", {
                 attrs: {
-                  src: "img/main/slider/slider_2.webp",
+                  src: "images/top/menu/slider/slider_2.webp",
                   alt: "スライダー画像2"
                 }
               }),
@@ -48311,7 +48311,7 @@ var render = function() {
             _c("a", { attrs: { href: "#" } }, [
               _c("img", {
                 attrs: {
-                  src: "img/main/slider/slider_3.webp",
+                  src: "images/top/menu/slider/slider_3.webp",
                   alt: "スライダー画像3"
                 }
               }),
@@ -60512,25 +60512,25 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./public/img/main/slider/left_pointer.png":
-/*!*************************************************!*\
-  !*** ./public/img/main/slider/left_pointer.png ***!
-  \*************************************************/
+/***/ "./public/images/top/menu/slider/next.png":
+/*!************************************************!*\
+  !*** ./public/images/top/menu/slider/next.png ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/left_pointer.png?371ed98d299ee2a53c60669124447b3e";
+module.exports = "/images/next.png?b64313f64ed9c8b59d2583e374ef7246";
 
 /***/ }),
 
-/***/ "./public/img/main/slider/right_pointer.png":
-/*!**************************************************!*\
-  !*** ./public/img/main/slider/right_pointer.png ***!
-  \**************************************************/
+/***/ "./public/images/top/menu/slider/prev.png":
+/*!************************************************!*\
+  !*** ./public/images/top/menu/slider/prev.png ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/right_pointer.png?b64313f64ed9c8b59d2583e374ef7246";
+module.exports = "/images/prev.png?371ed98d299ee2a53c60669124447b3e";
 
 /***/ }),
 

@@ -26,14 +26,14 @@
     <div class='header'>
       <div class="header-inner">
         <div class="header-logo">
-          <a href="#"><img src="{{ asset('storage/img/header/logo.png') }}"
+          <a href="#"><img src="{{ asset('images/header/logo.png') }}"
               alt="LaravelGame - 国内最大級のゲームアプリ情報・攻略サイト"></a>
         </div>
         <div class="header-link">
           <ul>
             <li><a href="#">ホーム</a></li>
-            <li><a href="#"><img src="{{ asset('storage/img/header/new_regist.png') }}" alt="新規登録">新規登録</a></li>
-            <li><a href="#"><img src="{{ asset('storage/img/header/login.png') }}" alt="ログイン">ログイン</a></li>
+            <li><a href="#"><img src="{{ asset('images/header/new_regist.png') }}" alt="新規登録">新規登録</a></li>
+            <li><a href="#"><img src="{{ asset('images/header/login.png') }}" alt="ログイン">ログイン</a></li>
           </ul>
         </div>
       </div>
@@ -75,7 +75,7 @@
   <div class="main">
     <div class="main-inner">
       <div class="main-img-center">
-        <img src="{{ asset('/storage/img/main/background/center.png') }}" alt="中央メイン画像">
+        <img src="{{ asset('images/top/background/center.png') }}" alt="中央メイン画像">
       </div>
       {{-- 背景画像 左 --}}
       <div class="main-img-left">
@@ -94,7 +94,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('/storage/img/main/menu/I_rpg_best.png') }}" alt="RPG">
+                  <img src="{{ asset('images/top/menu/I_rpg_best.png') }}" alt="RPG">
                 </div>
                 <div class="menu-text-box">
                   <p>RPGのおすすめ</p>
@@ -105,7 +105,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('/storage/img/main/menu/I_act_best.png') }}" alt="アクション">
+                  <img src="{{ asset('images/top/menu/I_act_best.png') }}" alt="アクション">
                 </div>
                 <div class="menu-text-box">
                   <p>アクションのおすすめ</p>
@@ -116,7 +116,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_slg_best.png') }}" alt="シミュレーション">
+                  <img src="{{ asset('images/top/menu/I_slg_best.png') }}" alt="シミュレーション">
                 </div>
                 <div class="menu-text-box">
                   <p>シミュレーションのおすすめ</p>
@@ -127,7 +127,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_rpg_best.png') }}" alt="パズルゲーム">
+                  <img src="{{ asset('images/top/menu/I_rpg_best.png') }}" alt="パズルゲーム">
                 </div>
                 <div class="menu-text-box">
                   <p>パズルゲームのおすすめ</p>
@@ -138,7 +138,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_rpg_best.png') }}" alt="スポーツ">
+                  <img src="{{ asset('images/top/menu/I_rpg_best.png') }}" alt="スポーツ">
                 </div>
                 <div class="menu-text-box">
                   <p>スポーツのおすすめ</p>
@@ -149,7 +149,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_rpg_best.png') }}" alt="音ゲー">
+                  <img src="{{ asset('images/top/menu/I_rpg_best.png') }}" alt="音ゲー">
                 </div>
                 <div class="menu-text-box">
                   <p>音ゲーのおすすめ</p>
@@ -160,7 +160,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_rpg_best.png') }}" alt="シューティングゲーム">
+                  <img src="{{ asset('images/top/menu/I_rpg_best.png') }}" alt="シューティングゲーム">
                 </div>
                 <div class="menu-text-box">
                   <p>シューティングゲームのおすすめ</p>
@@ -171,7 +171,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_rpg_best.png') }}" alt="カードゲーム">
+                  <img src="{{ asset('images/top/menu/I_rpg_best.png') }}" alt="カードゲーム">
                 </div>
                 <div class="menu-text-box">
                   <p>カードゲームのおすすめ</p>
@@ -182,7 +182,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_rpg_best.png') }}" alt="レースゲーム">
+                  <img src="{{ asset('images/top/menu/I_rpg_best.png') }}" alt="レースゲーム">
                 </div>
                 <div class="menu-text-box">
                   <p>レースゲーム</p>
@@ -193,7 +193,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_rpg_best.png') }}" alt="脱出ゲーム">
+                  <img src="{{ asset('images/top/menu/I_rpg_best.png') }}" alt="脱出ゲーム">
                 </div>
                 <div class="menu-text-box">
                   <p>脱出ゲームのおすすめ</p>
@@ -204,7 +204,7 @@
             <li class="menu-wrap">
               <a href="#">
                 <div class="menu-img-box">
-                  <img src="{{ asset('storage/img/main/menu/I_rpg_best.png') }}" alt="女性向けゲーム">
+                  <img src="{{ asset('images/top/menu/I_rpg_best.png') }}" alt="女性向けゲーム">
                 </div>
                 <div class="menu-text-box">
                   <p>女性向けゲームのおすすめ</p>

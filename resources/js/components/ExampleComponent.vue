@@ -4,7 +4,7 @@
             <swiper-slide>
                 <a href="#">
                     <img
-                        :src="'img/main/slider/slider_1.webp'"
+                        :src="'images/top/menu/slider/slider_1.webp'"
                         alt="スライダー画像1"
                     />
                     <div class="main-img-center-slider-label">
@@ -25,7 +25,7 @@
             <swiper-slide>
                 <a href="#">
                     <img
-                        :src="'img/main/slider/slider_2.webp'"
+                        :src="'images/top/menu/slider/slider_2.webp'"
                         alt="スライダー画像2"
                     />
                     <div class="main-img-center-slider-label">
@@ -46,7 +46,7 @@
             <swiper-slide>
                 <a href="#">
                     <img
-                        :src="'img/main/slider/slider_3.webp'"
+                        :src="'images/top/menu/slider/slider_3.webp'"
                         alt="スライダー画像3"
                     />
                     <div class="main-img-center-slider-label">
@@ -153,7 +153,7 @@ export default {
     cursor: pointer;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.3);
-    background-image: url("../../../public/img/main/slider/left_pointer.png");
+    background-image: url("../../../public/images/top/menu/slider/prev.png");
     background-size: 10px 15px; /* 背景画像としてのサイズ（＝表示したい画像サイズ） */
     background-position: center;
     background-repeat: no-repeat;
@@ -171,7 +171,7 @@ export default {
     cursor: pointer;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.3);
-    background-image: url("../../../public/img/main/slider/right_pointer.png");
+    background-image: url("../../../public/images/top/menu/slider/next.png");
     background-size: 10px 15px; /* 背景画像としてのサイズ（＝表示したい画像サイズ） */
     background-position: center;
     background-repeat: no-repeat;
