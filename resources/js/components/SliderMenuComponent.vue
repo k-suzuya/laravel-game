@@ -113,15 +113,15 @@ export default {
     align-items: align-items;
 }
 
-.swiper-slide img {
+#app .swiper-slide img {
     width: 280px;
     height: 160px;
     border-radius: 3px;
 }
 
 /* 前、次ページボタンのスタイル上書き */
-.swiper-button-prev:after,
-.swiper-button-next:after {
+#app .swiper-button-prev:after,
+#app .swiper-button-next:after {
     font-size: var(--swiper-navigation-size);
     text-transform: none !important;
     letter-spacing: 0;
@@ -130,19 +130,19 @@ export default {
 }
 
 /* 前、次ページボタンのスタイル上書き */
-.swiper-button-prev:after,
-.swiper-container-rtl .swiper-button-next:after {
+#app .swiper-button-prev:after,
+#app .swiper-container-rtl .swiper-button-next:after {
     content: "";
 }
 
 /* 前、次ページボタンのスタイル上書き */
-.swiper-button-next:after,
-.swiper-container-rtl .swiper-button-prev:after {
+#app .swiper-button-next:after,
+#app .swiper-container-rtl .swiper-button-prev:after {
     content: "";
 }
 
 /* 前ページボタンのスタイル */
-.swiper-button-prev {
+#app .swiper-button-prev {
     position: absolute;
     display: inline-block;
     width: 28px;
@@ -160,7 +160,7 @@ export default {
 }
 
 /* 次ページボタンのスタイル */
-.swiper-button-next {
+#app .swiper-button-next {
     position: absolute;
     display: inline-block;
     width: 28px;
@@ -178,7 +178,7 @@ export default {
 }
 
 /* 前、次ページがなかった場合、カーソル非表示 */
-.swiper-button-disabled {
+#app .swiper-button-disabled {
     display: none;
 }
 </style>

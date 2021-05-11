@@ -222,9 +222,10 @@
           </div>
           {{-- // ニュース、コラボ、その他 --}}
           {{-- mainメニュー --}}
-
+          <div id="tab">
+            <tab-menu-component></tab-menu-component>
+          </div>
           {{-- ランキングメニュー --}}
-          人気ランキング
           {{-- 非同期切り替え --}}
           Switch
           PS4
@@ -431,12 +432,6 @@
           アプリのランキングをもっと見る
           {{-- アプリ --}}
           {{-- //ランキングメニュー --}}
-
-          各種トップ
-          PS4
-          Switch
-          アプリ
-          PS5
         </div>
 
         <div class="right-menu">
@@ -548,7 +543,7 @@
   Copyright (C) LaravelGame All Rights Reserved.
   {{-- // フッター --}}
   {{-- scriptの読み込み --}}
-  <script src="{{ mix('js/app.js') }}"
+  <script src="{{ mix('js/app.js') }}"></script>
   {{-- // scriptの読み込み --}}
 </body>
 

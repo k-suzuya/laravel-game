@@ -8,6 +8,7 @@ Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
 
 // vueコンポーネント
 import SliderMenuComponent from './components/SliderMenuComponent.vue'
+import TabMenuComponent from './components/TabMenuComponent.vue'
 
 
 const app = new Vue({
@@ -16,4 +17,11 @@ const app = new Vue({
       SliderMenuComponent,
       VueAwesomeSwiper,
     }
-});
+})
+
+const tab = new Vue({
+  el: '#tab',
+  components: {
+    TabMenuComponent,
+  }
+})
